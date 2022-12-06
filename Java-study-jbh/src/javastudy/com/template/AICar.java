@@ -12,4 +12,10 @@ public class AICar extends Car{
 		System.out.println("자동차가 스스로 멈춥니다.");
 	}
 	
+	@Override
+	public void wiper() {
+		
+		System.out.println("비나 눈의 양에 따라 빠르기가 자동으로 조절됩니다.");
+	}
+	
 }

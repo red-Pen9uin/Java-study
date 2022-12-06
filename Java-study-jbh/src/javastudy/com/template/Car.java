@@ -13,7 +13,10 @@ public abstract class Car {
 	final public void run() {
 		startCar();
 		drive();
+		wiper();
 		stop();
 		turnOff();
 	}
+	
+	public abstract void wiper();
 }
